@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CustomActivity">
+
+
+    <cn.devmeteor.treepicker.TreePicker
+        android:id="@+id/picker"
+        app:tabItemPadding="20dp"
+        app:tabHeight="60dp"
+        app:tabTextSelectedColor="#459afe"
+        app:tabTextNormalColor="#666666"
+        app:tabUnderline="@drawable/shape_underline_custom"
+        app:tabTextSize="18sp"
+        app:levelTextSize="20sp"
+        app:levelPadding="30dp"
+        app:levelCheckDrawable="@drawable/checked_custom"
+        app:levelTextSelectedColor="#459afe"
+        app:levelTextNormalColor="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
