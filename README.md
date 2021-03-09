@@ -106,7 +106,5 @@ picker.setOnPickListener(object : TreePicker.OnPickListener {
 
 ### 4.自定义数据类
 
-自定义数据类须实现Convertible接口并重写convert方法以实现将自定义数据类转换为TreeNode的算法，示例：
-
-[CustomTreeNode]: app/src\main\java\cn\devmeteor\treepickerdemo\CustomTreeNode.kt	"CustomTreeNode"
+自定义数据类须实现Convertible接口并重写convert方法以实现将自定义数据类转换为TreeNode的算法，示例：[CustomTreeNode](app/src/main/java/cn/devmeteor/treepickerdemo/CustomTreeNode.kt)
 
